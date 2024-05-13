@@ -42,7 +42,7 @@ public class ConfigController {
     }
 
     @GetMapping(path = "/hello")
-    public String getConfigurations(){
+    public String getHello(){
         return "Hello I am here!";
     }
 }
