@@ -40,4 +40,9 @@ public class ConfigController {
             return new ResponseEntity<>(null, HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
+
+    @GetMapping(path = "/hello")
+    public String getConfigurations(){
+        return "Hello I am here!";
+    }
 }
